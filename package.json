@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "vicheaa44",
+  "author": "Victor Mamaliga",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

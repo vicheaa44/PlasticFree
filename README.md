@@ -91,7 +91,7 @@ Available in **English, Romanian and Russian**.
 
 | Role | Name |
 |---|---|
-| Student developer | vicheaa44 (GitHub) — *add full name before submitting* |
+| Student developer | Victor Mamaliga (GitHub: vicheaa44) |
 | Supervisor | *add before submitting* |
 
 Team size: 1 student (solo entry), within the category's 1–2 student limit.

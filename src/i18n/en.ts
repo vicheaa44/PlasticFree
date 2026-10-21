@@ -380,7 +380,7 @@ export const en = {
     problemBody:
       'Ocean plastic feels too big for one person. PlasticFree makes it personal: it measures your own plastic, shows the swaps that matter most, lets you watch the effect and turns it into a 30-day habit, with a map to act on it locally.',
     peopleTitle: 'People',
-    peopleBody: 'Student developer: vicheaa44 (GitHub). Add the full name and supervisor here before submitting.',
+    peopleBody: 'Student developer: Victor Mamaliga (GitHub: vicheaa44). Supervisor: to be added before submitting.',
     stackTitle: 'How it is built',
     stack: [
       ['Frontend', 'React 19, TypeScript, Vite, Tailwind CSS v4, React Router'],
