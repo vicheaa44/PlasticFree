@@ -382,7 +382,7 @@ export const ro: Translation = {
     problemBody:
       'Plasticul din ocean pare prea mare pentru un singur om. PlasticFree îl face personal: îți măsoară plasticul, îți arată schimburile care contează cel mai mult, te lasă să vezi efectul și îl transformă într-un obicei de 30 de zile, cu o hartă ca să acționezi local.',
     peopleTitle: 'Oameni',
-    peopleBody: 'Dezvoltator elev: Victor Mamaliga (GitHub: vicheaa44). Profesor coordonator: de adăugat înainte de înscriere.',
+    peopleBody: 'Dezvoltator elev: Victor Mamaliga (GitHub: vicheaa44). Profesor coordonator: Azamat Jayush.',
     stackTitle: 'Cum este construit',
     stack: [
       ['Frontend', 'React 19, TypeScript, Vite, Tailwind CSS v4, React Router'],

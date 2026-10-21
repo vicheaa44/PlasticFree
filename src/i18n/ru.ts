@@ -382,7 +382,7 @@ export const ru: Translation = {
     problemBody:
       'Пластик в океане кажется слишком большим для одного человека. PlasticFree делает его личным: измеряет твой пластик, показывает самые важные замены, позволяет увидеть эффект и превращает всё в 30-дневную привычку, а карта помогает действовать на месте.',
     peopleTitle: 'Люди',
-    peopleBody: 'Разработчик-школьник: Victor Mamaliga (GitHub: vicheaa44). Руководитель: будет добавлен перед подачей.',
+    peopleBody: 'Разработчик-школьник: Victor Mamaliga (GitHub: vicheaa44). Руководитель: Azamat Jayush.',
     stackTitle: 'Как это устроено',
     stack: [
       ['Фронтенд', 'React 19, TypeScript, Vite, Tailwind CSS v4, React Router'],
