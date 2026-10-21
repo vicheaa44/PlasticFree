@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 860" font-family="Inter Tight, Arial, Helvetica, sans-serif">
+  <title>PlasticFree design plan</title>
+  <desc>Early-stage plan: site map, how the tools share one state, a layout sketch with the left navigation, the palette and the user flow.</desc>
+  <rect width="1280" height="860" fill="#000"/>
+
+  <!-- header -->
+  <text x="40" y="58" fill="#fff" font-size="34" letter-spacing="-1.2">PlasticFree — design plan</text>
+  <text x="40" y="86" fill="#ffffff80" font-size="15">Early-stage sketch · SDG 14, Life Below Water · one footprint, five tools</text>
+  <rect x="1090" y="36" width="150" height="34" rx="4" fill="#1e6ef3"/>
+  <text x="1165" y="58" fill="#fff" font-size="14" text-anchor="middle">v0 → v1 · Oct 2026</text>
+
+  <!-- 1. site map -->
+  <text x="40" y="132" fill="#ffffff80" font-size="12" letter-spacing="1.5">01  SITE MAP</text>
+  <rect x="40" y="146" width="380" height="450" rx="4" fill="#1b1b1b"/>
+  <rect x="150" y="166" width="160" height="40" rx="4" fill="#1e6ef3"/>
+  <text x="230" y="191" fill="#fff" font-size="15" text-anchor="middle">Home</text>
+  <path d="M230 206V232M120 232H340M120 232V248M340 232V248" stroke="#ffffff55" stroke-width="1.5" fill="none"/>
+  <rect x="60" y="248" width="120" height="36" rx="4" fill="#000"/><text x="120" y="271" fill="#fff" font-size="14" text-anchor="middle">The problem</text>
+  <rect x="280" y="248" width="120" height="36" rx="4" fill="#000"/><text x="340" y="271" fill="#fff" font-size="14" text-anchor="middle">The solution</text>
+  <text x="60" y="324" fill="#ffffff80" font-size="11" letter-spacing="1.5">TOOLS</text>
+  <rect x="60" y="334" width="340" height="40" rx="4" fill="#000"/><rect x="72" y="350" width="8" height="8" fill="#1e6ef3"/><text x="92" y="359" fill="#fff" font-size="14">01  Footprint calculator</text>
+  <rect x="60" y="380" width="340" height="40" rx="4" fill="#000"/><rect x="72" y="396" width="8" height="8" fill="#1e6ef3"/><text x="92" y="405" fill="#fff" font-size="14">02  Swap it</text>
+  <rect x="60" y="426" width="340" height="40" rx="4" fill="#000"/><rect x="72" y="442" width="8" height="8" fill="#1e6ef3"/><text x="92" y="451" fill="#fff" font-size="14">03  Ocean simulation</text>
+  <rect x="60" y="472" width="340" height="40" rx="4" fill="#000"/><rect x="72" y="488" width="8" height="8" fill="#1e6ef3"/><text x="92" y="497" fill="#fff" font-size="14">04  30-day challenge</text>
+  <rect x="60" y="518" width="340" height="40" rx="4" fill="#000"/><rect x="72" y="534" width="8" height="8" fill="#1e6ef3"/><text x="92" y="543" fill="#fff" font-size="14">05  Recycling and refill map</text>
+  <text x="60" y="582" fill="#ffffff80" font-size="12">+ About (documentation, AI usage, sources)</text>
+
+  <!-- 2. shared state -->
+  <text x="450" y="132" fill="#ffffff80" font-size="12" letter-spacing="1.5">02  ONE SHARED STATE</text>
+  <rect x="450" y="146" width="400" height="450" rx="4" fill="#1b1b1b"/>
+  <rect x="470" y="168" width="150" height="46" rx="4" fill="#000"/><text x="545" y="188" fill="#fff" font-size="13" text-anchor="middle">Calculator</text><text x="545" y="205" fill="#ffffff80" font-size="11" text-anchor="middle">5 answers → kg / year</text>
+  <rect x="470" y="232" width="150" height="46" rx="4" fill="#000"/><text x="545" y="252" fill="#fff" font-size="13" text-anchor="middle">Swap it</text><text x="545" y="269" fill="#ffffff80" font-size="11" text-anchor="middle">plan → kg saved / year</text>
+  <rect x="470" y="296" width="150" height="46" rx="4" fill="#000"/><text x="545" y="316" fill="#fff" font-size="13" text-anchor="middle">30-day challenge</text><text x="545" y="333" fill="#ffffff80" font-size="11" text-anchor="middle">days done → kg saved</text>
+  <path d="M620 191H680V255M620 255H680M620 319H680V255" stroke="#1e6ef3" stroke-width="2" fill="none"/>
+  <path d="M680 255H700" stroke="#1e6ef3" stroke-width="2"/><path d="M694 249l8 6-8 6" stroke="#1e6ef3" stroke-width="2" fill="none"/>
+  <rect x="704" y="214" width="126" height="82" rx="4" fill="#1e6ef3"/>
+  <text x="767" y="238" fill="#fff" font-size="12" text-anchor="middle">pollution level</text>
+  <text x="767" y="258" fill="#fff" font-size="11" text-anchor="middle">(footprint − saved)</text>
+  <text x="767" y="274" fill="#fff" font-size="11" text-anchor="middle">÷ typical footprint</text>
+  <path d="M767 296V352" stroke="#ffffff88" stroke-width="1.5"/><path d="M761 346l6 8 6-8" stroke="#ffffff88" stroke-width="1.5" fill="none"/>
+  <rect x="470" y="356" width="360" height="112" rx="4" fill="#0b2a63"/>
+  <text x="490" y="382" fill="#fff" font-size="14">Ocean simulation (canvas)</text>
+  <path d="M470 420q20-10 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0" stroke="#7fd1ff" stroke-width="2" fill="none"/>
+  <rect x="520" y="436" width="10" height="5" fill="#fff"/><rect x="600" y="446" width="8" height="12" fill="#fff"/><rect x="700" y="438" width="10" height="5" fill="#fff"/>
+  <ellipse cx="560" cy="452" rx="9" ry="4" fill="#dce8ff"/><ellipse cx="760" cy="456" rx="9" ry="4" fill="#dce8ff"/>
+  <text x="490" y="406" fill="#ffffffaa" font-size="11">more plastic, fewer fish as the level rises</text>
+  <rect x="470" y="490" width="360" height="86" rx="4" fill="#000"/>
+  <text x="490" y="514" fill="#fff" font-size="13">Map  (separate from the state)</text>
+  <text x="490" y="534" fill="#ffffff80" font-size="11">OpenStreetMap → Overpass API (places) + Nominatim (search)</text>
+  <text x="490" y="552" fill="#ffffff80" font-size="11">recycling points · bulk / zero-waste shops · water refills</text>
+  <text x="490" y="568" fill="#ffffff80" font-size="11">your own spots are stored on the device only</text>
+
+  <!-- 3. layout sketch -->
+  <text x="880" y="132" fill="#ffffff80" font-size="12" letter-spacing="1.5">03  LAYOUT, NAVIGATION ON THE LEFT</text>
+  <rect x="880" y="146" width="360" height="450" rx="4" fill="#1b1b1b"/>
+  <rect x="894" y="160" width="86" height="422" rx="4" fill="#2a2f34"/>
+  <rect x="904" y="172" width="22" height="22" rx="4" fill="#1e6ef3"/><rect x="932" y="178" width="40" height="8" fill="#fff"/>
+  <g fill="#ffffff66"><rect x="904" y="214" width="62" height="6"/><rect x="904" y="232" width="50" height="6"/><rect x="904" y="250" width="58" height="6"/><rect x="904" y="284" width="54" height="6"/><rect x="904" y="302" width="46" height="6"/><rect x="904" y="320" width="60" height="6"/><rect x="904" y="338" width="52" height="6"/><rect x="904" y="356" width="40" height="6"/></g>
+  <rect x="904" y="214" width="62" height="6" fill="#fff"/><rect x="898" y="213" width="4" height="8" fill="#1e6ef3"/>
+  <rect x="904" y="520" width="66" height="26" rx="2" fill="#000"/><rect x="904" y="552" width="66" height="20" rx="3" fill="#1e6ef3"/>
+  <rect x="990" y="160" width="238" height="14" fill="#1e6ef3"/>
+  <g fill="#ffffffaa"><rect x="1010" y="190" width="2" height="12"/><rect x="1030" y="196" width="2" height="12"/><rect x="1050" y="190" width="2" height="12"/><rect x="1070" y="198" width="2" height="12"/><rect x="1090" y="190" width="2" height="12"/><rect x="1110" y="196" width="2" height="12"/><rect x="1130" y="190" width="2" height="12"/><rect x="1150" y="198" width="2" height="12"/><rect x="1170" y="190" width="2" height="12"/><rect x="1190" y="196" width="2" height="12"/></g>
+  <rect x="1030" y="226" width="150" height="12" fill="#fff"/><rect x="1050" y="244" width="110" height="6" fill="#ffffff80"/>
+  <rect x="1050" y="260" width="48" height="16" rx="2" fill="#1e6ef3"/><rect x="1104" y="260" width="48" height="16" rx="2" fill="#fff"/>
+  <rect x="990" y="300" width="119" height="120" fill="#1e6ef3"/><rect x="1109" y="300" width="119" height="120" fill="#000" stroke="#ffffff33"/>
+  <rect x="1134" y="324" width="70" height="70" fill="#fff"/>
+  <rect x="990" y="432" width="59" height="56" fill="#1e6ef3"/><rect x="1049" y="432" width="59" height="56" fill="#000" stroke="#ffffff22"/><rect x="1108" y="432" width="60" height="56" fill="#6f7782"/><rect x="1168" y="432" width="60" height="56" fill="#fff"/>
+  <rect x="990" y="500" width="238" height="82" fill="#1e6ef3"/>
+  <text x="1010" y="566" fill="#ffffff" font-size="26" letter-spacing="-1.5">PlasticFree</text>
+  <text x="880" y="618" fill="#ffffff80" font-size="11">hero → stack panel → stat tiles → blue footer</text>
+
+  <!-- palette -->
+  <text x="40" y="650" fill="#ffffff80" font-size="12" letter-spacing="1.5">04  PALETTE AND TYPE (design reference: deepbook-v2-wip.webflow.io, language only)</text>
+  <rect x="40" y="664" width="90" height="54" rx="4" fill="#000" stroke="#ffffff44"/><text x="48" y="708" fill="#fff" font-size="11" font-family="monospace">#000000</text>
+  <rect x="140" y="664" width="90" height="54" rx="4" fill="#1b1b1b"/><text x="148" y="708" fill="#fff" font-size="11" font-family="monospace">#1b1b1b</text>
+  <rect x="240" y="664" width="90" height="54" rx="4" fill="#2a2f34"/><text x="248" y="708" fill="#fff" font-size="11" font-family="monospace">#2a2f34</text>
+  <rect x="340" y="664" width="90" height="54" rx="4" fill="#1e6ef3"/><text x="348" y="708" fill="#fff" font-size="11" font-family="monospace">#1e6ef3</text>
+  <rect x="440" y="664" width="90" height="54" rx="4" fill="#fff"/><text x="448" y="708" fill="#000" font-size="11" font-family="monospace">#ffffff</text>
+  <text x="560" y="684" fill="#fff" font-size="22" letter-spacing="-1">Inter Tight 500, −3% tracking</text>
+  <text x="560" y="712" fill="#ffffff99" font-size="13" font-family="monospace">JETBRAINS MONO · small labels</text>
+
+  <!-- user flow -->
+  <text x="40" y="766" fill="#ffffff80" font-size="12" letter-spacing="1.5">05  USER FLOW</text>
+  <g font-size="14" fill="#fff" text-anchor="middle">
+    <rect x="40" y="782" width="170" height="44" rx="4" fill="#1e6ef3"/><text x="125" y="810">Calculate</text>
+    <rect x="262" y="782" width="170" height="44" rx="4" fill="#1b1b1b"/><text x="347" y="810">Swap</text>
+    <rect x="484" y="782" width="170" height="44" rx="4" fill="#1b1b1b"/><text x="569" y="810">Simulate</text>
+    <rect x="706" y="782" width="170" height="44" rx="4" fill="#1b1b1b"/><text x="791" y="810">Commit (30 days)</text>
+    <rect x="928" y="782" width="170" height="44" rx="4" fill="#1b1b1b"/><text x="1013" y="810">Find (map)</text>
+  </g>
+  <g stroke="#1e6ef3" stroke-width="2" fill="none"><path d="M210 804H262M432 804H484M654 804H706M876 804H928"/><path d="M254 798l8 6-8 6M476 798l8 6-8 6M698 798l8 6-8 6M920 798l8 6-8 6"/></g>
+  <text x="1110" y="810" fill="#ffffff80" font-size="12">→ repeat as habits stick</text>
+</svg>

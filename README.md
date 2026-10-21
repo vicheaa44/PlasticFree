@@ -11,13 +11,14 @@ Built for **Sustainable Development Goal 14, Life Below Water**, and the UN's #B
 | Requirement (Infomatrix regulations and Software Development page) | Where it is met |
 |---|---|
 | Entry in English | The site opens in English by default (Romanian and Russian are optional); all documentation is in English |
-| 1–2 students and a supervisor, as distinct roles | [People involved](#2-people-involved) |
-| Description with sketches or images of the idea | [Screenshots](#screenshots) |
-| Early-stage plans and designs | [Early-stage plan & design decisions](#3-early-stage-plan-design-decisions--timeline) |
+| At most two students and a supervisor, as distinct roles | [People involved](#2-people-involved) |
+| Description with sketches or images of the idea | [Screenshots](#screenshots) and the [design plan](docs/design/plan.svg) (site map, shared state, layout, palette, user flow) |
+| Early-stage plans and designs | [Early-stage plan & design decisions](#3-early-stage-plan-design-decisions--timeline) and the [design plan](docs/design/plan.svg) |
 | Iterations during development | [Development timeline](#development-timeline) and the Git history |
 | Software and hardware specifications | [Specifications](#5-software--hardware-specifications) |
 | Problems faced and how they were solved | [Problems faced](#6-problems-faced--how-they-were-solved) |
-| Open source, original work, no third-party rights infringed | [MIT licence](LICENSE); every third-party resource and its licence is in [Third-party content](#third-party-content--licences) |
+| Open source, original work, no third-party rights infringed | Public repository under the [MIT licence](LICENSE); every third-party resource and its licence is in [Third-party content](#third-party-content--licences) |
+| Documentation uploaded with the entry | This README, also as a PDF: [docs/PlasticFree-documentation.pdf](docs/PlasticFree-documentation.pdf) |
 | Cite all prompts, models and AI resources | [Responsible AI](#7-responsible-ai-usage) and the full [AI usage log](docs/AI_USAGE.md), also summarised on the site's *About* page |
 | A real-world problem, practical and user-friendly | [The problem](#the-problem); the app works on desktop and phone |
 
@@ -106,6 +107,10 @@ The project started from one framing question: *how do you make a planetary prob
 2. **Connect the tools through one shared state.** Swaps and challenge progress feed the same "pollution level" the ocean draws, so a choice on one page is visible on another.
 3. **Use open data and no backend.** Maps and search come straight from OpenStreetMap services in the browser; personal data never leaves the device. This also keeps the project free to host.
 
+![PlasticFree design plan: site map, shared state, layout sketch, palette and user flow](docs/design/plan.svg)
+
+*Early design plan — the site map, how the tools share one state, the layout with the navigation on the left, the palette and the user flow.*
+
 The structure follows the student's earlier projects (ClimaWatch and WasteLand): a Problem page, a Solution page, interactive tools, an About page with the documentation, English / Romanian / Russian, and a test suite. The look follows a reference site, [DeepBook](https://deepbook-v2-wip.webflow.io): pure black, a single electric blue, dark panels, isometric illustrations, a split "stack" section and coloured stat tiles. Only the *visual language* was taken (palette, layout patterns, the 4 px button radius); no code, images or fonts were copied. The reference's typeface (TWK Everett) is commercial, so **Inter Tight** is used instead, with **JetBrains Mono** for small labels. The navigation sits on the **left**, as a fixed panel on large screens and a slide-in drawer on phones.
 
 ### Development timeline
@@ -118,6 +123,7 @@ This timeline follows the project's Git history.
 | **21 Oct 2026** | **Interface and content.** Translations (English, Romanian, Russian), the left navigation, the animated hero, the isometric illustrations, the home page and the Problem and Solution pages. |
 | **21 Oct 2026** | **The five tools.** Calculator, Swap it, Ocean simulation, 30-day challenge and the Leaflet map. Checked in a browser on desktop and phone width; the map's tile source and Overpass strategy were changed after testing (see [Problems faced](#6-problems-faced--how-they-were-solved)). |
 | **21 Oct 2026** | **Documentation.** README, screenshots, About page and the AI usage log. |
+| **21 Oct 2026** | **Publication.** Public GitHub repository, live deployment on Vercel (every push to `main` deploys), the student and supervisor credited, the design-plan sketch and a PDF copy of the documentation for upload. |
 
 ---
 
