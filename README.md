@@ -4,7 +4,7 @@
 
 Built for **Sustainable Development Goal 14, Life Below Water**, and the UN's #BeatPlasticPollution campaign. Project prepared for Infomatrix, category **Software Development** (Project Contest).
 
-> **Live app:** deploy with Vercel (see [Deployment](#deployment)) and put the link here.
+### 🔴 [Try the live app → plastic-free-kappa.vercel.app](https://plastic-free-kappa.vercel.app)
 
 ### Infomatrix requirements checklist
 
@@ -234,7 +234,7 @@ npm run build
 
 ## Deployment
 
-The app is a static single-page application. Import the repository in [Vercel](https://vercel.com) (or run `npx vercel --prod`) and deploy; `vercel.json` rewrites every route to `index.html` so direct links to inner pages work. No environment variables are needed.
+The live app runs on [Vercel](https://vercel.com) at **https://plastic-free-kappa.vercel.app**, connected to this repository: every push to `main` deploys automatically. It is a static single-page application, so to host your own copy import the repository in Vercel (or run `npx vercel --prod`) and deploy; `vercel.json` rewrites every route to `index.html` so direct links to inner pages work. No environment variables are needed.
 
 ## Sources
 
